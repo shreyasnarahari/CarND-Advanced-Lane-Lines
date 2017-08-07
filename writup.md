@@ -41,12 +41,13 @@ The goal of this project is to detect lane lines more accurately and find the ra
 [image26]: ./output_images/Final_Images_7.jpg
 
 ## Rubic Points
-
+***
 #### Writeup / README
 **The writeup / README should include a statement and supporting figures / images that explain how each rubric item was addressed, and specifically where in the code each step was handled :**
 
 Yes.
 
+***
 #### Camera Caliberation
 
 I start by preparing "object points", which will be the (x, y, z) coordinates of the chessboard corners in the world. Here I am assuming the chessboard is fixed on the (x, y) plane at z=0, such that the object points are the same for each calibration image.  Thus, `objp` is just a replicated array of coordinates, and `objpoints` will be appended with a copy of it every time I successfully detect all chessboard corners in a test image.  `imgpoints` will be appended with the (x, y) pixel position of each of the corners in the image plane with each successful chessboard detection.  
@@ -55,6 +56,7 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 
 ![alt text][image1] ![alt_test][image2]
 
+***
 #### Pipeline
 **Provide an example of a distortion-corrected image.**
 
@@ -120,12 +122,14 @@ Here are results of the pipeline:
 ![alt text][image25]
 ![alt text][image26]
 
+***
 #### Pipeline (video)
 
 **Provide a link to your final video output. Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).**
 
 The Video is available in the project repository.
 
+***
 #### Discussion
 
 **Briefly discuss any problems / issues you faced in your implementation of this project. Where will your pipeline likely fail? What could you do to make it more robust?**
